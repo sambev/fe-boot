@@ -1,0 +1,56 @@
+/* ============================================================================
+ * Base css file for all things grid.
+ *
+ * We start out with a 12 column grid. But since Lost is cool, you can make any
+ * component whatever width you want!
+ *
+ * XXX: Please be careful though, going rogue with odd fractions can get you in
+ * trouble.
+ * ==========================================================================*/
+ @lost gutter 20px;
+.row {lost-utility: clearfix;}
+
+.container {
+    width: calc(99.99% * 11/12 - (30px - 30px * 9/12));
+    margin: 0 auto;
+}
+
+/**
+ * Standard columns
+ */
+.col-1 {lost-column: 1/12;}
+.col-2 {lost-column: 2/12;}
+.col-3 {lost-column: 3/12;}
+.col-4 {lost-column: 4/12;}
+.col-5 {lost-column: 5/12;}
+.col-6 {lost-column: 6/12;}
+.col-7 {lost-column: 7/12;}
+.col-8 {lost-column: 8/12;}
+.col-9 {lost-column: 9/12;}
+.col-10 {lost-column: 10/12;}
+.col-11 {lost-column: 11/12;}
+.col-12 {lost-column: 12/12;}
+
+.offset-1 {lost-offset: 1/12;}
+.offset-2 {lost-offset: 2/12;}
+.offset-3 {lost-offset: 3/12;}
+.offset-4 {lost-offset: 4/12;}
+.offset-5 {lost-offset: 5/12;}
+.offset-6 {lost-offset: 6/12;}
+.offset-7 {lost-offset: 7/12;}
+.offset-8 {lost-offset: 8/12;}
+.offset-9 {lost-offset: 9/12;}
+.offset-10 {lost-offset: 10/12;}
+.offset-11 {lost-offset: 11/12;}
+
+.push-1 {lost-offset: -1/12;}
+.push-2 {lost-offset: -2/12;}
+.push-3 {lost-offset: -3/12;}
+.push-4 {lost-offset: -4/12;}
+.push-5 {lost-offset: -5/12;}
+.push-6 {lost-offset: -6/12;}
+.push-7 {lost-offset: -7/12;}
+.push-8 {lost-offset: -8/12;}
+.push-9 {lost-offset: -9/12;}
+.push-10 {lost-offset: -10/12;}
+.push-11 {lost-offset: -11/12;}
