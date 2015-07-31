@@ -18,9 +18,9 @@ module.exports = {
 
     resolve: {
         alias: {
-            pieces: path.resolve('./js'),
-            pieces_css: path.resolve('./css'),
-            pieces_img: path.resolve('./img'),
+            js: path.resolve('./js'),
+            css: path.resolve('./css'),
+            img: path.resolve('./img'),
         },
     },
 

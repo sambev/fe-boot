@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-require('pieces_css/base.css');
+require('css/base.css');
 
 var TestComponent = React.createClass({
     render () {
